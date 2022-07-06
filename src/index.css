@@ -22,13 +22,13 @@ body {
 }
 
 .calc-box {
-  background-color: #f5deb3;
+  background-color: rgb(163, 162, 162);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 30%;
-  border: 2px solid rgb(228, 126, 36);
+  border: 1px solid rgb(171, 171, 170);
 }
 
 .screen {
@@ -41,6 +41,7 @@ body {
 .output {
   margin-right: 10px;
   font-size: 24px;
+  color: #fff;
 }
 
 .buttons {
