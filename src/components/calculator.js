@@ -37,6 +37,6 @@ const Calculator = () => {
       </section>
     </>
   );
-}
+};
 
 export default Calculator;
