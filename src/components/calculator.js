@@ -2,7 +2,12 @@ import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 // eslint-disable-next-line react/prefer-stateless-function
 
-function Calculator() {}
+function Calculator() {
+  const [state, setState] = useState(0);
+  const handleClick = (event) => {
+    setState((state) = calculate(state, event.target.textContent));
+  };
+
     return (
       <>
         <section className="container">
