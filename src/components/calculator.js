@@ -1,19 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 // eslint-disable-next-line react/prefer-stateless-function
-class Calculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-    this.handleClick = this.handleClick.bind(this);
-  }
 
-  handleClick(event) {
-    this.setState((state) => calculate(state, event.target.textContent));
-  }
-
-  render() {
-    const { next, total } = this.state;
+function Calculator() {}
     return (
       <>
         <section className="container">
@@ -45,6 +34,5 @@ class Calculator extends React.Component {
       </>
     );
   }
-}
 
 export default Calculator;
