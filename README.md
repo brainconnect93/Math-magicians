@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# React SetUp
+# Math-magician Calculator
 
-Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to, make simple calculations and read a random math-related quote.
+Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and implement some mathematics workings
 
 ## Built With
 
