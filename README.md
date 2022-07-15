@@ -1,8 +1,13 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![(https://img.shields.io/badge/Microverse-blueviolet)](https://github.com/brainconnect93)
 
 # Math-magician Calculator
 
 Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and implement some mathematics workings
+
+## Go live via the links below
+
+[Click here for heroku](https://adding-machine.herokuapp.com/)
+
 
 ## Built With
 
