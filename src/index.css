@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -11,14 +13,23 @@ body {
   height: 100vh;
   margin: 0;
   padding: 0;
+  font-family: 'Baloo+2', cursive;
 }
 
 .container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-size: 24px;
   height: 70vh;
   align-items: center;
+  margin: 10% 0;
+}
+
+.calc-title {
+  width: 96%;
+  margin: 0 2%;
+  text-align: center;
 }
 
 .calc-box {
@@ -27,8 +38,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30%;
+  width: 60%;
   border: 1px solid rgb(171, 171, 170);
+  margin-bottom: 30px;
 }
 
 .screen {
@@ -76,4 +88,129 @@ button:active {
 .zero {
   width: 50%;
   height: 40px;
+}
+
+/* NavBar styling  */
+.navBar {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #f2f2f2;
+  width: 90%;
+  margin: 0 5%;
+  flex-wrap: wrap;
+}
+
+.navMenu {
+  display: flex;
+  padding: 20px 10px;
+  width: 100%;
+  margin-left: -25px;
+}
+
+.navMenu li {
+  list-style-type: none;
+  padding: 0 10px;
+  border-right: 2px solid #000;
+  text-align: center;
+}
+
+.navMenu li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 50px;
+  padding: 0 8px;
+}
+
+/* homepage styling */
+
+.home-container {
+  margin: 80px 10%;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.home-para {
+  margin-bottom: 30px;
+}
+
+.listContainer {
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.listItem {
+  list-style: square;
+}
+
+.listItem::marker {
+  color: red;
+}
+
+/* quote styling  */
+.quoteCont {
+  margin: 20% 5%;
+  width: 90%;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navBar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+
+  .navMenu {
+    display: flex;
+    padding: 0 10px;
+    width: 30%;
+  }
+
+  .navMenu li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 0 8px;
+  }
+
+  /* calculator styling  */
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 24px;
+    height: 70vh;
+    align-items: flex-start;
+  }
+
+  .calc-title {
+    width: 96%;
+    margin: 0 2%;
+    text-align: start;
+    padding-left: 30px;
+  }
+
+  .calc-box {
+    margin-right: 100px;
+  }
+
+  /* quote styling  */
+  .quoteCont {
+    margin: 10% 5%;
+    width: 90%;
+    text-align: center;
+  }
 }
