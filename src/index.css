@@ -163,7 +163,7 @@ button:active {
   text-align: center;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .navBar {
     display: flex;
     align-items: center;
@@ -209,7 +209,6 @@ button:active {
 
   /* quote styling  */
   .quoteCont {
-    margin-top: 20%;
     margin: 10% 5%;
     width: 90%;
     text-align: center;
