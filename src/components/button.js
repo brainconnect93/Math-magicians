@@ -27,12 +27,14 @@ const ButtonContainer = (props) => {
   const { handleClick } = props;
 
   return (
-    <div className="buttons">
+    <div>
+      <div className="buttons">
         {calc.map((button) => (
           <button type='button' key={button} onClick={handleClick}>
             {button}
           </button>
         ))}
+      </div>
     </div>
   );
 };
