@@ -59,7 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to Microverse for giving me this project to work on
-
+- Hat tip to the person his/her code was used
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
