@@ -4,6 +4,16 @@
 
 Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and implement some mathematics workings
 
+### Math-Magician Screenshot
+
+>![calc](https://user-images.githubusercontent.com/78634841/188427430-4094bd94-6364-4c24-b260-955656d1a1a6.png)
+![calc1](https://user-images.githubusercontent.com/78634841/188427453-ec557fb6-775e-4751-ad4f-05289517ab74.png)
+![calc2](https://user-images.githubusercontent.com/78634841/188427477-a4ec0ff4-b199-419f-9f1c-cc356df6b3f8.png)
+![calc3](https://user-images.githubusercontent.com/78634841/188427521-d4c45817-3455-4070-a4d0-312f9f8b8299.png)
+![calc4](https://user-images.githubusercontent.com/78634841/188427542-f759cfc6-ff4f-4746-8ed8-c448b5cd160f.png)
+![calc5](https://user-images.githubusercontent.com/78634841/188427563-0f006530-b54c-4e8e-9367-360b80df2bd4.png)
+
+
 ## Go live via the links below
 
 [Click here for heroku](https://adding-machine.herokuapp.com/)
